@@ -1,5 +1,8 @@
 package homework;
 
+/**
+ * @Author : Jeena Noori
+ */
 public class Home {
 
 private     int id;
@@ -14,6 +17,15 @@ private     String map;
     public Home(){
 
     }
+
+    /**
+     *
+     * @param id
+     * @param color
+     * @param map
+     * @param volume
+     * @param type
+     */
 
     public Home(int id, String color, String map, double volume, char type) {
         this.id = id;

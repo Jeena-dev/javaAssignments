@@ -1,5 +1,9 @@
 package homework;
 
+/**
+ * @Author : Jeena Noori
+ */
+
 public class Person {
 
  private   String name;
@@ -16,7 +20,25 @@ public class Person {
 
     }
 
-    public Person(String name, String gender, int age, double weight, double height, String eyeColor, String hairColor) {
+    /**
+     *
+     * @param name
+     * @param gender
+     * @param age
+     * @param weight
+     * @param height
+     * @param eyeColor
+     * @param hairColor
+     */
+
+    public Person(String name,
+                  String gender,
+                  int age,
+                  double weight,
+                  double height,
+                  String eyeColor,
+                  String hairColor)
+    {
         this.name = name;
         this.gender = gender;
         this.age = age;

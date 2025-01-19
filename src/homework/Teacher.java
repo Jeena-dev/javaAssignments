@@ -1,5 +1,9 @@
 package homework;
 
+/**
+ * @Author : Jeena Noori
+ */
+
 public class Teacher {
     //instance variable which has default value.
    private int id;
@@ -13,7 +17,19 @@ public class Teacher {
 
     }
 
-    public Teacher(int id, String firstName, String lastName, char sex) {
+    /**
+     *
+     * @param id
+     * @param firstName
+     * @param lastName
+     * @param sex
+     */
+
+    public Teacher(int id,
+                   String firstName,
+                   String lastName,
+                   char sex)
+    {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;

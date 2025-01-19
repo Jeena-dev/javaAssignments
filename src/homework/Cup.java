@@ -1,5 +1,8 @@
 package homework;
 
+/**
+ * @Author  Jeena Noori
+ */
 public class Cup {
     //properties: instance variable
 
@@ -8,10 +11,17 @@ public class Cup {
    private boolean hasHandle;
 
 
+
 public Cup(){
 
 }
 
+    /**
+     *
+     * @param color
+     * @param volume
+     * @param hasHandle
+     */
     public Cup(String color, double volume, boolean hasHandle){
         this.color = color;
         this.volume = volume;

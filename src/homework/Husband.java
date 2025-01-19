@@ -1,5 +1,9 @@
 package homework;
 
+/**
+ * @Author :Jeena Noori
+ */
+
 public class Husband {
 
 private     String name;
@@ -14,6 +18,15 @@ private     int age;
     public Husband(){
 
     }
+
+    /**
+     *
+     * @param name
+     * @param age
+     * @param job
+     * @param education
+     * @param home
+     */
 
     public Husband(String name, int age, String job, String education, String home) {
         this.name = name;

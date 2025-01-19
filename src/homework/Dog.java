@@ -1,5 +1,9 @@
 package homework;
 
+/**
+ * @Author : Jeena Noori
+ */
+
 public class Dog {
 
   private   int age;
@@ -12,6 +16,15 @@ private     int price;
     public Dog(){
 
     }
+
+    /**
+     *
+     * @param age
+     * @param name
+     * @param color
+     * @param breed
+     * @param price
+     */
 
 
     public Dog(int age, String name, String color, String breed, int price){

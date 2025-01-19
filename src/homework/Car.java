@@ -1,5 +1,8 @@
 package homework;
 
+/**
+ * @Author Jeena Noori
+ */
 public class Car {
 
 private     int year;
@@ -13,6 +16,14 @@ private     double mileage;
 
     }
 
+    /**
+     *
+     * @param year
+     * @param model
+     * @param make
+     * @param color
+     * @param mileage
+     */
 
     public Car(int year, String model, String make, String color, double mileage){
         this.year = year;
@@ -29,6 +40,7 @@ private     double mileage;
     public int getYear(){
         return year;
     }
+
 
     public void setModel(String model){
         this.model = model;
